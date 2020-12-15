@@ -7,6 +7,25 @@
 
 ## CLI
 
+### - 브렌치
+
+\* 참고자료 [https://lelecoder.com/52](https://lelecoder.com/52), [https://backlog.com/git-tutorial/kr/stepup/stepup2_3.html](https://backlog.com/git-tutorial/kr/stepup/stepup2_3.html)
+
+```
+#1. 현재 작업 브렌치 확인하기
+git branch
+
+#2. 새로운 브렌치 생성하기
+git branch 브렌치_이름 //새로운 브렌치 생성
+git checkout 브렌치_이름 //브렌치 이동
+
+git checkout -b 브렌치_이름 //새로운 브렌치 생성하고, 이동하기
+
+#3. 브렌치 삭제하기
+git branch -d 브렌치_이름 //브렌치 삭제하기
+```
+
+
 ### - staged 된 파일들만 stash 하기 (Double stash)
 
 \* 참고자료 [https://stackoverflow.com/questions/14759748/stashing-only-staged-changes-in-git-is-it-possible](https://stackoverflow.com/questions/14759748/stashing-only-staged-changes-in-git-is-it-possible)
