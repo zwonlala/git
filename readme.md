@@ -1,9 +1,21 @@
 # Git
 
+## 참고하면 좋을 사이트
+
+- 누구나 쉽게 이해할 수 있는 Git 입문 [https://backlog.com/git-tutorial/kr/contents/](https://backlog.com/git-tutorial/kr/contents/)
 
 ## 용어
 
+### HEAD
+'현재 사용 중인 브랜체의 선두 부분'
+HEAD를 이동하면, 사용하는 브렌치가 변경됨
 
+틸드(~)나 캐럿(^) 기호를 사용하여 현재 커밋으로부터 특정 커밋의 위치를 가리킬 수 있음
+- HEAD ~i : HEAD 보다 i 세대 앞 커밋
+- HEAD ^i : 브렌치 병합에서 원본이 여럿 있는 경우 몇 번째 원본인지 지정
+
+
+![ ~와 ^](https://user-images.githubusercontent.com/13375734/102227299-bdc75400-3f2c-11eb-89a6-79289c09f163.png)
 
 ## CLI
 
