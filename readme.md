@@ -59,4 +59,19 @@ git branch -d 브렌치_이름 //브렌치 삭제하기
 <br>
 <br>
 
+### - unstaged file들의 변경사항 모두 취소하기
+git discard all changes at unstaged files
+
+\* 참고자료 [https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/](https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/), [https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git), [https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0](https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0)
+
+```
+#1. git stash save --keep-index --include-untracked
+
+#2. git stash drop //스태시 삭제s
+```
+
+<br>
+<br>
+<br>
+
 ### - 이미 push 한 커밋 메시지 수정하기
